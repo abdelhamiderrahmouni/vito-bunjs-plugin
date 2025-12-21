@@ -1,0 +1,13 @@
+/.phpunit.cache
+.env
+/.fleet
+/.idea
+/.vscode
+laradumps.yaml
+.DS_Store
+CLAUDE.md
+AGENTS.md
+.cursor
+.github/copilot-instructions.md
+boost.json
+opencode.json
