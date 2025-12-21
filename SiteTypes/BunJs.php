@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\AbdelhamidErrahmouni\BunJsPlugin\SiteTypes;
+namespace App\Vito\Plugins\AbdelhamidErrahmouni\VitoBunJsPlugin\SiteTypes;
 
 use App\Actions\Worker\CreateWorker;
 use App\Actions\Worker\ManageWorker;

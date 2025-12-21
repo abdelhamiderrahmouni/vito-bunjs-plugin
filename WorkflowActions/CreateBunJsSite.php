@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\AbdelhamidErrahmouni\BunJsPlugin\WorkflowActions;
+namespace App\Vito\Plugins\AbdelhamidErrahmouni\VitoBunJsPlugin\WorkflowActions;
 
 use App\WorkflowActions\Site\CreateSite;
 
