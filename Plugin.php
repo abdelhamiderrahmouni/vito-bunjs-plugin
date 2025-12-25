@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\AbdelhamidErrahmouni\VitoBunJsPlugin;
+namespace App\Vito\Plugins\Abdelhamiderrahmouni\VitoBunJsPlugin;
 
 use App\DTOs\DynamicField;
 use App\Plugins\AbstractPlugin;
@@ -8,7 +8,7 @@ use App\Plugins\RegisterServiceType;
 use App\Plugins\RegisterSiteType;
 use App\Plugins\RegisterViews;
 use App\Plugins\RegisterWorkflowAction;
-use App\Vito\Plugins\AbdelhamidErrahmouni\VitoBunJsPlugin\WorkflowActions\CreateBunJsSite;
+use App\Vito\Plugins\Abdelhamiderrahmouni\VitoBunJsPlugin\WorkflowActions\CreateBunJsSite;
 
 class Plugin extends AbstractPlugin
 {
