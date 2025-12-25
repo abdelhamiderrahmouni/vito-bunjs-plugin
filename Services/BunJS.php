@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\Abdelhamiderrahmouni\VitoBunJsPlugin\Services;
+namespace App\Vito\Plugins\Abdelhamiderrahmouni\VitoBunjsPlugin\Services;
 
 use App\Exceptions\SSHError;
 use App\Services\AbstractService;
