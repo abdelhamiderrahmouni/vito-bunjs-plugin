@@ -7,8 +7,8 @@ curl -fsSL https://bun.sh/install | bash -s "bun-v${BUN_VERSION}"
 # Move Bun and Bunx binaries to /usr/local/bin for global access
 sudo mv ~/.bun/bin/bun /usr/local/bin/
 sudo chmod a+x /usr/local/bin/bun
-sudo mv ~/.bun/bin/bunx /usr/local/bin/
-sudo chmod a+x /usr/local/bin/bunx
+sudo ln -s /usr/local/bin/bun /usr/local/bin/bunx
+rm -rf ~/.bun
 
 # The installation script adds  "~/.bun/bin" to $PATH in "~/.bashrc" automatically, we should remove it
 sed -i '/\.bun\/bin/d' "$HOME/.bashrc" 2>/dev/null || true
