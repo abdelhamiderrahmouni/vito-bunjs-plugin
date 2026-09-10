@@ -27,6 +27,7 @@ class Plugin extends AbstractPlugin
             ->label('Bun.js')
             ->handler(Services\BunJS::class)
             ->versions([
+                '1.4.2',
                 '1.3.4',
                 '1.2.23',
                 '1.1.45',
